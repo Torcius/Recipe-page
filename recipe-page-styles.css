@@ -1,0 +1,182 @@
+body {
+    background-image:url('https://www.allrecipes.com/thmb/jDJz84Ul6z1iS58ECrzNAukbz8o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/worlds-best-lasagna-326144cb84a54159ab08523a704a3f0a.jpeg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.header {
+    display: flex;
+    background-color: #FAA419;
+    height: 100px;
+    width: 100%;
+    align-items:center;
+    justify-content:space-around;
+    margin:0 auto;
+    font-size:2.5vb;
+    text-align:center;
+    position:sticky;
+}
+
+.header h1 {
+    border:1px solid black;
+    border-radius:10px;
+    background-color:rgba(255, 0, 0, 0.212);
+    padding:2px;
+    margin:0;
+    font-family:Trebuchet MS;
+}
+
+.box {
+    width:12px;
+    border-radius:10px;
+}
+
+.box-5 {
+    height:10px;
+    background-color:#e3610b5f;
+}
+
+.box-4 {
+    height:15px;
+    background-color:#e3610b8a;
+}
+
+.box-3 {
+    height:20px;
+    background-color:#e3610bca;
+}
+
+.box-2 {
+    height:25px;
+    background-color:#e3610bec;
+}
+
+.box-1 {
+    height:30px;
+    background-color:#E3610B;
+}
+
+.ingr-title,
+.instr-title {
+    display:block;
+    text-align:center;
+    width:100%;
+    font-family:jokerman;
+}
+
+.ingr-title {
+    background-image:radial-gradient(rgba(241, 150, 4, 0.75), rgba(241, 150, 4, 0));
+    margin:2px auto 0px;
+}
+
+.instr-title {
+    display:flex;
+    box-sizing:border-box;
+    background-color:rgba(250, 235, 215, 0.634);
+    margin:0px;
+    padding:10px;
+    align-items:center;
+    justify-content:center;
+}
+
+.ingredients {
+    background-color:rgba(250, 235, 215, 0.634);
+    display:flex;
+    flex-flow:row wrap;
+    align-items:end;
+    justify-content:space-evenly;
+    width:100%;
+    height:60%;
+    margin:0 auto 0;
+}
+
+.ingr-part {
+    box-sizing:border-box;
+    border-radius:10px;
+    width:33%;
+    height:40vh;
+    padding:0px;
+    margin:0px;
+    text-align:justify;
+}
+
+.ingr-part:nth-child(even) {
+    background-color:rgba(241, 150, 4, 0.75);
+}
+
+.ingr-part:nth-child(odd) {
+    background-color:#acfb0d9b;
+}
+
+.instructions {
+    box-sizing:border-box;
+    background-color:rgba(250, 235, 215, 0.634);
+    display:flex;
+    flex-flow:row-reverse nowrap;
+    align-items:last-baseline;
+    justify-content:center;
+    width:100%;
+    height:60%;
+    margin:0 auto 0;
+}
+
+.instr-title h2 {
+    border:1px solid black;
+    border-radius:10px;
+    width:fit-content;
+    position:relative;
+    left:18%;
+}
+
+.steps {
+    display:flex;
+    flex-flow:row wrap;
+    width:60%;
+    justify-content:stretch;
+}
+
+.step {
+    background-color:rgba(255, 255, 255, 0.949);
+    height:48%;
+    padding:2px;
+    border:1px solid black;
+    border-radius:5px;
+    margin:1px;
+}
+
+.step:nth-child(even) {
+    background-color:#acfb0d9b;
+}
+
+.step:nth-child(odd) {
+    background-color:rgba(241, 150, 4, 0.75);
+}
+
+.step-up {
+    width:30%;
+}
+.step-down {
+    width:45.4%;
+}
+
+#finished {
+    width:90%;
+    height:auto;
+}
+
+.final-product {
+    display:flex;
+    flex-flow:column nowrap;
+    width:40%;
+    justify-content:start;
+    align-items:center;
+}
+
+hr {
+    border:1px solid black;
+}
+
+#enjoy {
+    font-family:monotype corsiva;
+    font-size:24px;
+}
